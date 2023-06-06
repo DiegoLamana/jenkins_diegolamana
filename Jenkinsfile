@@ -9,7 +9,7 @@ steps
 {
 sript
 {
-writeFile(file: interprete.txt, text: "Freddie Mercury")
+writeFile(file: "interprete.txt", text: "Freddie Mercury")
 }
 }
 }
