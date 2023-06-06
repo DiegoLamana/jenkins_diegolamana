@@ -7,7 +7,7 @@ stage("Creacion fichero interprete")
 {
 steps
 {
-sript
+script
 {
 writeFile(file: "interprete.txt", text: "Freddie Mercury")
 }
