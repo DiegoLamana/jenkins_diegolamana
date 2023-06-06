@@ -1,0 +1,23 @@
+pipeline
+{
+any agents
+stages
+{
+stage("hola mundo")
+{
+steps
+{
+script
+{
+sh "echo hola mundo"
+}
+
+}
+
+}
+
+}
+
+
+
+}
